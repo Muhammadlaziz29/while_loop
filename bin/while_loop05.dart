@@ -15,7 +15,7 @@ int func(int a) {
     if (x%2==0) {
       d = d + x;
     }
-    v = y - d;
+    v = y - d.abs();
   }
   return v;
 }
